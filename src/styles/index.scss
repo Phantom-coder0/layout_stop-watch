@@ -42,7 +42,6 @@ body {
   top: calc(50% - 38vmin);
 
   transform-origin: bottom center;
-  transform: rotate(3deg);
 
   animation: rotate 60s linear infinite;
 }
@@ -71,7 +70,6 @@ body {
     transform: rotate(360deg);
   }
 }
-
 .stopwatch--speed-up .stopwatch__minute-hand {
   animation-duration: 600s;
 }
